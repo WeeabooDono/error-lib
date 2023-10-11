@@ -2,17 +2,13 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'lib-errors',
+  selector: 'errors-unauthorized',
   standalone: true,
   imports: [CommonModule],
-  template: `
-    <p>
-      errors works!
-    </p>
-  `,
+  template: `Unauthorized`,
   styles: [
   ]
 })
-export class ErrorsComponent {
+export class ErrorPageUnauthorizedComponent {
 
 }
