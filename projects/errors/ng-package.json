@@ -3,5 +3,14 @@
   "dest": "../../dist/errors",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "allowedNonPeerDependencies": [
+    "@angular/animations",
+    "@angular/material",
+    "@angular/cdk"
+  ],
+  "assets": [
+    "./src/theme/tailwind.css",
+    "   "
+  ]
 }

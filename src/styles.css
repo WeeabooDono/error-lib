@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+/*@import "errors/theme/tailwind.css";*/
+
+@use '@angular/material' as mat;
+@include mat.core();
+
+
+html {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  height: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+}

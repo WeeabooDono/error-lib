@@ -2,6 +2,10 @@
  * Public API Surface of errors
  */
 
-export * from './lib/error.routes';
-export * from './lib/error-page-not-found.component';
-export * from './lib/error-page-unauthorized.component';
+// import './theme/tailwind.css';
+// export * from './lib/layout/error-layout.component';
+// export * from './lib/outlet/error-outlet.component';
+export * from './lib/components/error.routes';
+export * from './lib/components/error.component';
+export * from './lib/model/error.model';
+export * from './lib/config';
